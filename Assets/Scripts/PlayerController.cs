@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour {
 	public float tilt;
 	public Boundary boundary;
 
-
 	void FixedUpdate () // called before each fixed physics step
 	{
 		float moveHorizontal = Input.GetAxis ("Horizontal");
