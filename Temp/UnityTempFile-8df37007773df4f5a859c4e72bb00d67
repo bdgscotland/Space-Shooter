@@ -4,7 +4,6 @@
 -out:'Temp/Assembly-CSharp.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
--r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
 -r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll'
 -define:UNITY_5_0_2
@@ -43,10 +42,9 @@
 -define:INCLUDE_IL2CPP
 -define:PLATFORM_SUPPORTS_MONO
 -define:RENDER_SOFTWARE_CURSOR
--define:UNITY_STANDALONE_OSX
--define:UNITY_STANDALONE
+-define:UNITY_WEBPLAYER
 -define:ENABLE_SUBSTANCE
--define:ENABLE_GAMECENTER
+-define:WEBPLUG
 -define:ENABLE_TEXTUREID_MAP
 -define:ENABLE_RUNTIME_GI
 -define:ENABLE_MOVIES
@@ -66,5 +64,5 @@
 'Assets/Done/Done_Scripts/Done_PlayerController.cs'
 'Assets/Done/Done_Scripts/Done_RandomRotator.cs'
 'Assets/Done/Done_Scripts/Done_WeaponController.cs'
--r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
--r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
+'Assets/Scripts/Mover.cs'
+'Assets/Scripts/PlayerController.cs'

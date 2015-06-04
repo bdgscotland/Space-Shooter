@@ -4,7 +4,6 @@
 -out:'Temp/Assembly-CSharp.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
--r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
 -r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll'
 -define:UNITY_5_0_2
@@ -65,3 +64,5 @@
 'Assets/Done/Done_Scripts/Done_PlayerController.cs'
 'Assets/Done/Done_Scripts/Done_RandomRotator.cs'
 'Assets/Done/Done_Scripts/Done_WeaponController.cs'
+'Assets/Scripts/Mover.cs'
+'Assets/Scripts/PlayerController.cs'
